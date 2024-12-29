@@ -8,6 +8,6 @@ interface DogsInterface {
     suspend fun getRandomDog(): DogsDetail
 
     companion object{
-        const val BASE_URL = "http://192.168.1.44:8080"
+        const val BASE_URL = "http://000.000.0.00:8080"
     }
 }
